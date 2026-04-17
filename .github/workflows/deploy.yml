@@ -1,0 +1,55 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+    name: Build & Deploy to Hostinger
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        
+    - name: Build Frontend
+      run: |
+        cd frontend
+        npm ci
+        npm run build
+        
+    - name: Prepare Deployment Package
+      run: |
+        mkdir production_package
+        # Copy Frontend build output
+        cp -R frontend/dist/* production_package/
+        
+        # Copy Backend & Config directories
+        cp -R api production_package/
+        cp -R saas_api production_package/ 2>/dev/null || true
+        cp -R icons production_package/ 2>/dev/null || true
+        mkdir -p production_package/uploads
+        
+        # Copy root PHP files
+        cp *.php production_package/
+        
+        # Copy production htaccess (renaming it to .htaccess)
+        if [ -f "htaccess_hostinger.txt" ]; then
+          cp htaccess_hostinger.txt production_package/.htaccess
+        elif [ -f ".htaccess.production" ]; then
+          cp .htaccess.production production_package/.htaccess
+        fi
+        
+    - name: Sync FTP files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./production_package/

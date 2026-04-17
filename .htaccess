@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /tudu_haute_couture_tech/
+
+  # Pass Authorization Header to PHP via Rewrite
+  RewriteCond %{HTTP:Authorization} ^(.*)
+  RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+  # Allow direct access to real files and directories
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Allow /api/ requests to pass through to PHP
+  RewriteRule ^api/ - [L]
+
+  # Everything else goes to the React app (HashRouter handles internal routing)
+  RewriteRule ^ frontend/dist/index.html [L]
+</IfModule>

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "stripe/stripe-php": "^20.0",
+        "firebase/php-jwt": "^7.0"
+    }
+}

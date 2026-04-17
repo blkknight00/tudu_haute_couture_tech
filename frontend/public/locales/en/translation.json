@@ -1,0 +1,68 @@
+{
+  "landing": {
+    "nav": {
+      "problem": "The Problem",
+      "solution": "The Solution",
+      "benefits": "Benefits",
+      "login": "Login",
+      "start_free": "Start for Free"
+    },
+    "hero": {
+      "tag": "The agile alternative",
+      "title_1": "The end of chaos,",
+      "title_2": "the beginning of flow.",
+      "subtitle": "Project, task, and personal life management, <1>directly where your conversations are.</1>",
+      "cta": "Enter TuDu",
+      "cta_secondary": "Discover How"
+    },
+    "problem": {
+      "title": "We live in chat, but manage in <1>\"grey software\"</1>.",
+      "desc": "The disconnect between where we talk and where we work is the source of stress. Current tools ask for too many clicks, and sending a message to your team doesn't update the project status.",
+      "card1_title": "The Funnel of Death",
+      "card1_desc": "How many times did a client ask for something via WhatsApp and you forgot to pass it to the manager? If the process is \"lazy\", the task is lost.",
+      "card2_title": "Excess of Clicks",
+      "card2_desc": "Complex interfaces and inefficient navigation that force you to perform mechanical tasks over and over again.",
+      "card3_title": "The Infinite Scroll",
+      "card3_desc": "Critical information, important documents and agreements disappear quickly in the chat history.",
+      "visual_title": "Traditional Software",
+      "visual_desc": "Too many clicks to create a task..."
+    },
+    "solution": {
+      "title": "The hybrid solution.",
+      "subtitle": "The best of a Project Manager with the simplicity of a Chat. TuDu is the intelligence layer that connects your daily messaging with your long-term goals.",
+      "feat1_title": "Magic without leaving the chat",
+      "feat1_desc": "Turn conversations into immediate actions. TuDu detects the intention and automatically creates the task removing bureaucratic clicks.",
+      "feat2_title": "Collaboration without boundaries",
+      "feat2_desc": "Your clients don't need to download anything. You keep the order in Kanban boards, they keep the convenience of their favorite App.",
+      "feat3_title": "Smart Copilot",
+      "feat3_desc": "You don't just save tasks, we help you complete them. Daily priority analysis, document drafting, and proactive assistance.",
+      "feat4_tag": "ABSOLUTE PRIVACY",
+      "feat4_title": "The \"Mental Switch\"",
+      "feat4_desc": "Manage your personal projects with the same power as your work ones, keeping strict privacy. Switch from 'organizing my house' to 'managing the company' in a second, under the same central identity."
+    },
+    "cta_final": {
+      "title": "While others add buttons,<br/> we eliminate steps.",
+      "desc": "We connect people, automate processes, generate results. <br/> The ROI of conversational management is here.",
+      "button": "Start flowing today"
+    },
+    "footer": {
+      "rights": "All Rights Reserved.",
+      "community": "part of the business community"
+    }
+  },
+  "pricing": {
+    "title": "Invest in your peace of mind",
+    "subtitle": "Simple and transparent plans for teams of any size.",
+    "monthly": "Monthly",
+    "annual": "Annual (Save 20%)",
+    "currency_mxn": "MXN",
+    "currency_usd": "USD",
+    "currency_eur": "EUR"
+  },
+  "auth": {
+    "login": "Log in to TuDu",
+    "register": "Create Account",
+    "email": "Username or Email",
+    "password": "Password"
+  }
+}

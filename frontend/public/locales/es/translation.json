@@ -1,0 +1,68 @@
+{
+  "landing": {
+    "nav": {
+      "problem": "El Problema",
+      "solution": "La Solución",
+      "benefits": "Beneficios",
+      "login": "Iniciar Sesión",
+      "start_free": "Empezar Gratis"
+    },
+    "hero": {
+      "tag": "La alternativa ágil",
+      "title_1": "El fin del caos,",
+      "title_2": "el inicio de la fluidez.",
+      "subtitle": "Gestión de proyectos, tareas y vida personal, <1>directamente donde ya están tus conversaciones.</1>",
+      "cta": "Entrar a TuDu",
+      "cta_secondary": "Descubrir Cómo"
+    },
+    "problem": {
+      "title": "Vivimos en el chat, pero administramos en el <1>\"software gris\"</1>.",
+      "desc": "La desconexión entre dónde hablamos y dónde trabajamos es el origen del estrés. Las herramientas actuales te piden demasiados clics, y enviar un mensaje a tu equipo no actualiza el estado del proyecto.",
+      "card1_title": "El Embudo de la Muerte",
+      "card1_desc": "¿Cuántas veces un cliente pidió algo por WhatsApp y se olvidó pasarlo al gestor? Si el proceso \"da flojera\", la tarea se pierde.",
+      "card2_title": "Exceso de Clics",
+      "card2_desc": "Interfaces complejas y navegación ineficiente que obligan a realizar tareas mecánicas una y otra vez.",
+      "card3_title": "El Scroll Infinito",
+      "card3_desc": "Información crítica, documentos y acuerdos importantes desaparecen rápidamente en el historial de chats.",
+      "visual_title": "Software Tradicional",
+      "visual_desc": "Demasiados clics para crear una tarea..."
+    },
+    "solution": {
+      "title": "La solución híbrida.",
+      "subtitle": "Lo mejor de un Project Manager con la simplicidad de un Chat. TuDu es la capa de inteligencia que conecta tu mensajería diaria con tus objetivos a largo plazo.",
+      "feat1_title": "Magia sin salir del chat",
+      "feat1_desc": "Convierte conversaciones en acciones inmediatas. TuDu detecta la intención y crea la tarea automáticamente eliminando los clics burocráticos.",
+      "feat2_title": "Colaboración sin barreras",
+      "feat2_desc": "Tus clientes no necesitan descargar nada. Tú mantienes el orden en tableros Kanban, ellos mantienen la comodidad de su App favorita.",
+      "feat3_title": "Copiloto Inteligente",
+      "feat3_desc": "No solo guardas tareas, te ayudamos a completarlas. Análisis diario de prioridades, redacción de documentos y asistencia proactiva.",
+      "feat4_tag": "PRIVACIDAD ABSOLUTA",
+      "feat4_title": "El \"Switch Mental\"",
+      "feat4_desc": "Gestiona tus proyectos personales con la misma potencia que los laborales, manteniendo una privacidad férrea. Cambia de 'organizar mi casa' a 'gestionar la empresa' en un segundo, bajo una misma identidad central."
+    },
+    "cta_final": {
+      "title": "Mientras otros añaden botones,<br/> nosotros eliminamos pasos.",
+      "desc": "Conectamos personas, automatizamos procesos, generamos resultados. <br/> El ROI de la gestión conversacional está aquí.",
+      "button": "Empezar a fluir hoy"
+    },
+    "footer": {
+      "rights": "Derechos Reservados.",
+      "community": "forma parte de la comunidad de negocios"
+    }
+  },
+  "pricing": {
+    "title": "Invierte en tu tranquilidad",
+    "subtitle": "Planes simples y transparentes para equipos de cualquier tamaño.",
+    "monthly": "Mensual",
+    "annual": "Anual (Ahorra 20%)",
+    "currency_mxn": "MXN",
+    "currency_usd": "USD",
+    "currency_eur": "EUR"
+  },
+  "auth": {
+    "login": "Inicia sesión en TuDu",
+    "register": "Crear Cuenta",
+    "email": "Usuario o Correo",
+    "password": "Contraseña"
+  }
+}
